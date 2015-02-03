@@ -1,3 +1,9 @@
+a:hover{
+	color: #009600;
+}
+a {
+	color: #E55800
+}
 .navbar{
 	background-color: #736966;
 	border-bottom-style: solid;
@@ -27,8 +33,11 @@
 	background-image: linear-gradient(to bottom, #736966 50%, #0929B2 100%);
 }
 .logo{
-	font-size: 1.5em;
+	font-size: 2.3em;
 	color: #E55800;
+	position: relative;
+	top: 50%;
+	padding-left: 25px;
 }
 .navTabs{
 	font-size: 1.3em;
@@ -148,7 +157,6 @@
 }
 .profileClassesDiv{
 	border: 5px solid #0929B2;
-
 }
 .profileBadges{
 	height: 700px;
@@ -241,11 +249,86 @@
 
 
 /*Badges Page*/
-.searchScreenBadges{
-	position: relative;
-	margin-top: 20px;
-	background-image: url(assets/collaborating.jpg);
+.searchBadgeDiv{
+	background-image: url(../assets/collaborating.jpg);
 	height: 726px;
 	width: 1556px;
+	margin-top: 20px;
+}
+.searchBadgeSearch{
+	position: absolute;
+	top: 50%;
+}
+.searchBadgeSearchButton{
+	margin-right: 20px;
+}
+.searchBadgeTab1{
+	border: 3px solid #0929B2;
+}
+.searchBadgeTab2{
+	border: 3px solid #0929B2;
+}
+.searchBadgeTabColor{
+	font-size: 1.5em;
+	color: #E55800;
+}
+.badgeOption1{
+	width: 380px;
+	height: 300px;
+	margin-top: 20px;
+	box-shadow: -2px 2px 2px 1px black;
+	background-color: #009600;
+}
+.badgeOption2{
+	width: 430px;
+	height: 335px;
+	background-color: #E55800;
 	z-index: 1;
+	position: relative;
+	box-shadow: 1px 2px 40px 1px black;
+}
+.badgeOption3{
+	width: 380px;
+	height: 300px;
+	margin-top: 20px;
+	box-shadow: 2px 2px 2px 1px black;
+	background-color: #FFCC00;
+}
+.badgeOptionText{
+	position: relative;
+	text-align: center;
+	top: 16%;
+	font-size: 4.7em;
+}
+
+
+
+
+/*Learn Page*/
+.searchClassesDiv{
+	background-image: url(../assets/athena.jpg);
+	height: 726px;
+	width: 1556px;
+	margin-top: 20px;
+}
+.searchClassesSearch{
+	position: absolute;
+	top: 50%;
+	margin-left: 32%;
+}
+.savedClassesDiv{
+	position: relative;
+	margin-top: 20px;
+	height: 700px;
+	border-style: solid;
+	border-color: #0929B2;
+	border-width: 5px;
+	padding: 0px;
+}
+.savedClassesTitle{
+	font-size: 3.0em;
+	color: #E55800;
+}
+.savedClassesClassDiv{
+	border: 5px solid #0929B2;
 }
