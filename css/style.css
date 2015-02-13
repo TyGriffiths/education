@@ -1,4 +1,4 @@
-a:hover{
+a:hover{ 
 	color: #009600;
 }
 a {
@@ -331,4 +331,32 @@ a {
 }
 .savedClassesClassDiv{
 	border: 5px solid #0929B2;
+}
+
+
+
+/*Teach Page*/
+.teachSubmitDiv{
+	margin-top: 50px;
+}
+.teachSubmitInfo1{
+	border-style: solid;
+	border-color: #0929B2;
+	border-width: 5px;
+	font-size: 1.5em;
+}
+.teachSubmitInfo3{
+	border-style: solid;
+	border-color: #0929B2;
+	border-width: 5px;
+	height: 10em;
+	font-size: 1.5em;
+}
+.teachSubmitInfoExtra{
+	font-size: 0.7em;
+}
+.teachSubmitButton{
+	background-color: #0929B2;
+	font-size: 1.5em;
+	margin-top: 15px;
 }
