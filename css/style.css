@@ -278,6 +278,17 @@ a {
 	margin-top: 20px;
 	box-shadow: -2px 2px 2px 1px black;
 	background-color: #009600;
+	transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+}
+.badgeOption1:hover{
+	-webkit-transform: scale(1.2,1.2);
+    -moz-transform:scale(1.2,1.2);
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    z-index: 2;
 }
 .badgeOption2{
 	width: 430px;
@@ -286,6 +297,17 @@ a {
 	z-index: 1;
 	position: relative;
 	box-shadow: 1px 2px 40px 1px black;
+	transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+}
+.badgeOption2:hover{
+	-webkit-transform: scale(1.2,1.2);
+    -moz-transform:scale(1.2,1.2);
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    z-index: 2;
 }
 .badgeOption3{
 	width: 380px;
@@ -293,6 +315,17 @@ a {
 	margin-top: 20px;
 	box-shadow: 2px 2px 2px 1px black;
 	background-color: #FFCC00;
+	transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+}
+.badgeOption3:hover{
+	-webkit-transform: scale(1.2,1.2);
+    -moz-transform:scale(1.2,1.2);
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    z-index: 2;
 }
 .badgeOptionText{
 	position: relative;
